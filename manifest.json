@@ -3,6 +3,7 @@
   "description": "You can search tweets about this page only one click.",
   "manifest_version": 2,
   "version": "1.0",
+  "browser_action": {},
   "background": {
     "scripts": [ "jquery.min.js", "scripts.js" ],
     "persistent": false
