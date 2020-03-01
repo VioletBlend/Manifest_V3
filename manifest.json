@@ -3,9 +3,6 @@
   "description": "You can search tweets about this page only one click.",
   "manifest_version": 2,
   "version": "1.0",
-  "browser_action": {
-    "default_title": "Search tweets"
-  },
   "background": {
     "scripts": [ "jquery.min.js", "scripts.js" ],
     "persistent": false
