@@ -1,0 +1,14 @@
+{
+  "name": "Search tweets about this page",
+  "manifest_version": 2,
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "You can search tweets about this page only one click."
+  },
+  "background": {
+    "scripts": [ "jquery.min.js", "scripts.js" ]
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
