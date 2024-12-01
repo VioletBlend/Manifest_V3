@@ -1,12 +1,12 @@
 {
-  "name": "Search tweets about this page",
-  "description": "You can search tweets about this page only one click.",
-  "manifest_version": 2,
+  "name": "時短便利すくりぷと",
+  "description": "現在閲覧中のサイトに関しての話題チェック",
+  "manifest_version": 3,
   "version": "1.0",
-  "browser_action": {},
+  "action": {},
   "background": {
-    "scripts": [ "jquery.min.js", "scripts.js" ],
-    "persistent": false
+    "service_worker": "src/background.js",
+    "type": "module"
   },
   "permissions": [
     "tabs"

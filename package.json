@@ -1,0 +1,12 @@
+{
+  "name": "search-posts-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to search posts about the current page",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chrome-extension", "search", "x", "twitter"],
+  "author": "",
+  "license": "MIT"
+}
